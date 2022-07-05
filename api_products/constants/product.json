@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Warm jacket",
+    "slug": "warm-jacket",
+    "price": "299.00",
+    "description": "Warm Jacket Desc",
+    "image": "/uploads/warm jacket.jpg",
+    "thumbnail": "/uploads/uploads/warm jacket.jpg",
+    "category": "Winter"
+  },
+  {
+    "name": "Brown Leather Jacket",
+    "slug": "brown-leather",
+    "price": "199.00",
+    "description": "Brown Leather Desc",
+    "image": "/uploads/leather jacket.jpg",
+    "thumbnail": "/uploads/uploads/leather jacket.jpg",
+    "category": "Winter"
+  },
+  {
+    "name": "Cute Bikini",
+    "slug": "cute-bikini",
+    "price": "99.00",
+    "description": "Cute Bikini Desc",
+    "image": "/uploads/cute bikini.jpg",
+    "thumbnail": "/uploads/uploads/cute bikini.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Sleeve Bodysuit",
+    "slug": "sleeve-bodysuit",
+    "price": "21.00",
+    "description": "Simple Joys by Carter's Baby Boys' Long-Sleeve Bodysuit, Pack of 5",
+    "image": "/uploads/sleeve bodysuit.jpg",
+    "thumbnail": "/uploads/uploads/sleeve bodysuit.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Playwear Set",
+    "slug": "playwear-set",
+    "price": "24.10",
+    "description": "Simple Joys by Carter's Baby Boys' 4-Piece Playwear Set",
+    "image": "/uploads/playwear set.jpg",
+    "thumbnail": "/uploads/uploads/playwear set.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Women Shorts",
+    "slug": "woman-shorts",
+    "price": "79.30",
+    "description": "Soft, lightweight knit construction delivers superior comfort & breathability. Material wicks sweat & dries really fast. Anti-pill/anti-pick finish adds extra durability. Updated exposed elastic printed waistband.",
+    "image": "/uploads/women shorts.jpg",
+    "thumbnail": "/uploads/uploads/women shorts.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Columbia Women's Heavenly Jacket",
+    "slug": "heavenly-jacket",
+    "price": "220.40",
+    "description": "The Columbia Women's Heavenly Jacket combines stylish urban looks with technology to keep you warm and dry. A great fall and winter jacket, you'll love the feminine silhouette shaped in a modern cut.",
+    "image": "/uploads/heavenly jacket.jpg",
+    "thumbnail": "/uploads/uploads/heavenly jacket.jpg",
+    "category": "Winter"
+  },
+  {
+    "name": "Gym Shorts",
+    "slug": "gym-shorts",
+    "price": "100.40",
+    "description": "BROKIG Mens 5 Inch Gym Bodybuilding Shorts, Running Workout Lightweight Shorts Elastic Waistband Zip Pockets.",
+    "image": "/uploads/gym shorts.jpg",
+    "thumbnail": "/uploads/uploads/gym shorts.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Mini Skirt",
+    "slug": "mini-skirt",
+    "price": "150.00",
+    "description": "Dokuritu Women's Floral Flowy Skirt Summer Cute High Waisted Tiered Ruffle Mini Skirt.",
+    "image": "/uploads/mini skirt.jpg",
+    "thumbnail": "/uploads/uploads/mini skirt.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Men's T-Shirt",
+    "slug": "men-shirt",
+    "price": "37.95",
+    "description": "A workwear staple, this men's pocket t-shirt is equal parts durable and comfortable. It has an original fit, Carhartt's roomiest cut. The heavyweight fabric only gets softer with time.",
+    "image": "/uploads/men shirt.jpg",
+    "thumbnail": "/uploads/uploads/men shirt.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Under Armour Women's Play Up Short 3.0 - Twist",
+    "slug": "under-armour",
+    "price": "90.24",
+    "description": "Soft, lightweight knit construction delivers superior comfort & breathability.Material wicks sweat & dries really fast.Extra durability.Updated exposed elastic printed waistband.Under Armour’s mission is to make all athletes better through passion, design and the relentless pursuit of innovation.",
+    "image": "/uploads/under armour.jpg",
+    "thumbnail": "/uploads/uploads/under armour.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "YEOREO Women Seamless Scrunch Workout Shorts High Waisted Intensify Running Gym Yoga Workout",
+    "slug": "workout-short",
+    "price": "190.10",
+    "description": "Increasing elasticity scrunch in the butt area prevent from easily ripping, increasing the comfort when you squat, enhancing curves and no front seam.",
+    "image": "/uploads/workout short.jpg",
+    "thumbnail": "/uploads/uploads/workout short.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Dofaoo Two Piece Outfits for Women Long Sleeve Crew Neck Sweatsuits Sets with Pockets",
+    "slug": "sweatsuits-set",
+    "price": "190.10",
+    "description": "You can go from bed to walking the dog in this combo in 15 minutes. No need to change clothes. Overall great for home, working out, errands and just everyday wear.",
+    "image": "/uploads/sweatsuits set.jpg",
+    "thumbnail": "/uploads/uploads/sweatsuits set.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Hanes Men's Full-Zip Eco-Smart Hoodie",
+    "slug": "smart-hoodie",
+    "price": "39.65",
+    "description": "There's nothing like the comfort and style of Hanes Men's Clothing. Whether you’re on the go or just hanging out, Hanes Men's Activewear always delivers the fit, style and comfort you need.",
+    "image": "/uploads/smart hoodie.jpg",
+    "thumbnail": "/uploads/uploads/smart hoodie.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Simple Joys by Carter's Unisex Babies' Hooded Sweater Jacket with Sherpa Lining",
+    "slug": "baby-hoodie",
+    "price": "17.80",
+    "description": "Soft and cozy sweater to get them warm on chilly days. Hooded with 3D ears and fully faux sherpa lined",
+    "image": "/uploads/baby hoodie.jpg",
+    "thumbnail": "/uploads/uploads/baby hoodie.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Calvin Klein Women's Modern Cotton Unlined Wireless Bralette",
+    "slug": "wireless-bralette",
+    "price": "7.00",
+    "description": "Simply iconic, Calvin Klein’s bestselling modern cotton bralettes for women are the definition of effortless, all-day comfort.",
+    "image": "/uploads/wireless bralette.jpg",
+    "thumbnail": "/uploads/uploads/wireless bralette.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Callaway Golf 2021 Ladies High Tail Adjustable Hat",
+    "slug": "golf-hat",
+    "price": "29.99",
+    "description": "Performance low-profile hat with subtle branding designed specifically to accommodate a pony-tail.",
+    "image": "/uploads/golf hat.jpg",
+    "thumbnail": "/uploads/uploads/golf hat.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Women's Tie-Dye Set Two-Piece Outfits Summer - Casual Two Piece Short Set Short Sleeve T Shirts",
+    "slug": "sleeve-tshirt",
+    "price": "79.99",
+    "description": "Supersun Women's Tie Dye Set 2 Piece Outfits Summer Shorts Set Casual T-Shirts Shorts Set.",
+    "image": "/uploads/sleeve tshirt.jpg",
+    "thumbnail": "/uploads/uploads/sleeve tshirt.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Champion Men's Classic T-Shirt, Script Logo",
+    "slug": "champion-tshirt",
+    "price": "79.99",
+    "description": "Here’s a go-to classic cotton tee from Champion®, with Champion® quality built into every detail.",
+    "image": "/uploads/champion tshirt.jpg",
+    "thumbnail": "/uploads/uploads/champion tshirt.jpg",
+    "category": "Spring"
+  }
+]

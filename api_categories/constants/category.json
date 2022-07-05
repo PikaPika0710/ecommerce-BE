@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Summer",
+    "slug": "summer"
+  },
+  {
+    "name": "Winter",
+    "slug": "winter"
+  },
+  {
+    "name": "Spring",
+    "slug": "spring"
+  }
+]
