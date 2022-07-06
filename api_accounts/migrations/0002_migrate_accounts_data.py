@@ -9,7 +9,7 @@ from rest_framework.utils import json
 
 def initial_data(apps, schema_editor):
     account_model = apps.get_model('api_accounts', 'Account')
-    json_data = json.load(open('api_accounts/constants/account.json'), encoding='utf8')
+    json_data = json.load(open('api_accounts/constants/account.json'))
     accounts = []
     for account_data in json_data:
         account = account_model(id=uuid.uuid4(),

@@ -12,7 +12,7 @@ def initial_data(apps, schema_editor):
     category_model = apps.get_model('api_categories', 'Category')
     categories = []
 
-    json_data = json.load(open('api_categories/constants/category.json'), encoding='utf8')
+    json_data = json.load(open('api_categories/constants/category.json'))
     for category_data in json_data:
         category = category_model(id=uuid.uuid4(),
                                   name=category_data.get('name'),

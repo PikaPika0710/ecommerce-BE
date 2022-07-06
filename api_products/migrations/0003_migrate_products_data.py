@@ -10,7 +10,7 @@ from api_categories.services import CategoryService
 def initial_data(apps, schema_editor):
     product_model = apps.get_model('api_products', 'Product')
     products = []
-    json_data = json.load(open('api_products/constants/product.json'), encoding='utf8')
+    json_data = json.load(open('api_products/constants/product.json'))
 
     for product_data in json_data:
         category_id = CategoryService.get_category_id_by_name(product_data.get('category'))
