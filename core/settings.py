@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 # allowed for front end to call api
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    "https://vietdevshop.herokuapp.com/"
+    "https://vietdevshop.herokuapp.com"
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
