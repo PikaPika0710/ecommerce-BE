@@ -34,7 +34,6 @@ class Product(TimeStampedModel):
             return os.getenv('MEDIA_URI') + self.image.url
 
     def get_thumbnail(self):
-        print(self.thumbnail)
         if self.thumbnail:
             return os.getenv('MEDIA_URI') + self.thumbnail.url
         else:
