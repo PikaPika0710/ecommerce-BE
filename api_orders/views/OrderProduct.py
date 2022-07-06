@@ -1,5 +1,4 @@
 from rest_framework.authentication import TokenAuthentication
-from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 
 from api_base.views import MyBaseViewSet
@@ -18,6 +17,3 @@ class OrderItemViewSet(MyBaseViewSet):
     permission_map = {
 
     }
-
-
-

@@ -34,8 +34,6 @@ class AccountViewSet(MyBaseViewSet):
         username = request.data.get('username')
         password = request.data.get('password')
         account = Account.objects.filter(username=username)
-        print(username)
-        print(password)
         if account.exists():
             account = account.first()
             if not account.is_activate:
