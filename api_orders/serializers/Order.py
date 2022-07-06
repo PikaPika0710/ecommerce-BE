@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from api_orders.models import Order, OrderItem
-from api_orders.serializers.OrderItem import OrderItemSerializer, MyOrderItemSerializer
+from api_orders.serializers.OrderProduct import MyOrderItemSerializer, OrderItemSerializer
 
 
 class OrderSerializer(serializers.ModelSerializer):
