@@ -169,5 +169,50 @@
     "image": "/uploads/champion tshirt.jpg",
     "thumbnail": "/uploads/uploads/champion tshirt.jpg",
     "category": "Spring"
+  },
+  {
+    "name": "Champion Women's Powerblend Joggers, Script Logo",
+    "slug": "champion-jogger",
+    "price": "55.04",
+    "description": "Keep your sport style going from pre- to post workout and everywhere in between. The modern fit and tapered leg gives a retro edge to cropped tees and jackets.",
+    "image": "/uploads/champion jogger.jpg",
+    "thumbnail": "/uploads/uploads/champion jogger.jpg",
+    "category": "Spring"
+  },
+  {
+    "name": "Levi's Baby Boys' Straight Fit Jeans",
+    "slug": "baby-jean",
+    "price": "45.04",
+    "description": "Levi’s legacy is built on classic designs and durable fabric. Our history energizes us to create comfortable clothes for kids.",
+    "image": "/uploads/baby jean.jpg",
+    "thumbnail": "/uploads/uploads/baby jean.jpg",
+    "category": "Winter"
+  },
+  {
+    "name": "Gerber Girls' Toddler 3-Pack Pull-on Bike Shorts",
+    "slug": "bike-shorts",
+    "price": "19.99",
+    "description": "Our baby clothes are designed to keep your little one feeling at their best and to bring parents peace of mind. With easy-to-change features, safety features, and super soft fabrics, we offer baby girl clothes and baby boy clothes that are sure to fit any family’s needs.",
+    "image": "/uploads/bike short.jpg",
+    "thumbnail": "/uploads/uploads/bike short.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Baby Girls Comfy Outfits",
+    "slug": "comfy-outfits",
+    "price": "19.99",
+    "description": "2Pcs Toddlers Baby Girls Summer Clothes Set Ruffle Ribbed Knit Short Sleeves T-Shirt Tops Shorts Comfy Outfits.",
+    "image": "/uploads/comfy outfits.jpg",
+    "thumbnail": "/uploads/uploads/comfy outfits.jpg",
+    "category": "Summer"
+  },
+  {
+    "name": "Python is Calling and I Must go - Coding Coder Programming Programmer",
+    "slug": "coding-shirt",
+    "price": "99.99",
+    "description": "You've now found the staple t-shirt of your wardrobe. It's made of 100% ring-spun cotton and is soft and comfy.",
+    "image": "/uploads/coding shirt.jpg",
+    "thumbnail": "/uploads/uploads/coding shirt.jpg",
+    "category": "Spring"
   }
 ]
