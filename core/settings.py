@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'api_categories',
     'api_accounts',
     'api_orders',
+    'api_users',
 ]
 # allowed for front end to call api
 CORS_ALLOWED_ORIGINS = [

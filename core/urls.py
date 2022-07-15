@@ -15,6 +15,7 @@ urlpatterns = [
                   # url(r'^static/(?P<path>.")$', serve, {'document_root': settings.STATIC_ROOT}),
                   path('api/v1/product/', include('api_products.urls')),
                   path('api/v1/category/', include('api_categories.urls')),
+                  path('api/v1/user/', include('api_users.urls')),
                   path('api/v1/account/', include('api_accounts.urls')),
                   path('api/v1/order/', include('api_orders.urls'))
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
