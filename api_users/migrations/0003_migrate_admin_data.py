@@ -12,22 +12,29 @@ from api_accounts.constants import RoleData
 
 def initial_data(apps, schema_editor):
     account_model = apps.get_model('api_accounts', 'Account')
-    json_data = json.load(open('api_accounts/constants/admin.json'))
+    user_model = apps.get_model('api_users', 'User')
+    json_data = json.load(open('api_users/constants/admin.json', encoding="utf8"))
     admin_role = RoleData.ADMIN.value.get('id')
     default_admin_password = os.getenv('DEFAULT_ADMIN_PASSWORD')
-    accounts = []
-    for account_data in json_data:
+    admins = []
+    for admin_data in json_data:
+        account_data = admin_data['account']
         account = account_model(id=uuid.uuid4(),
-                                username=account_data.get('username'),
+                                username=account_data['username'],
                                 password=make_password(default_admin_password),
                                 role_id=admin_role)
-        accounts.append(account)
-    account_model.objects.bulk_create(accounts)
+
+        account.save()
+
+        admin_data['account'] = account
+        admins.append(user_model(**admin_data))
+
+    user_model.objects.bulk_create(admins)
 
 
 class Migration(migrations.Migration):
     dependencies = [
-        ('api_accounts', '0003_migrate_role_data'),
+        ('api_users', '0002_migrate_user_data'),
     ]
 
     operations = [

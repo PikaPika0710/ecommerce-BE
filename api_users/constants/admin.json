@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Admin",
+    "phone": "0935169835",
+    "birthday": "2001-10-07",
+    "email": "admin@gmail.com",
+    "gender": "Nam",
+    "career": "Administrator",
+    "account": {
+      "username": "admin"
+    }
+  },
+  {
+    "name": "Trần Công Việt",
+    "phone": "0935169835",
+    "birthday": "2001-10-07",
+    "email": "trancongviet0710@gmail.com",
+    "gender": "Nam",
+    "career": "Backend Developer",
+    "account": {
+      "username": "tranviet"
+    }
+  }
+]

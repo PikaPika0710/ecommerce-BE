@@ -6,6 +6,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 
 from api_accounts.models import Account
 from api_accounts.serializers import AccountSerializer
+from api_accounts.services import AccountService
 from api_base.views import MyBaseViewSet
 
 
@@ -43,7 +44,8 @@ class AccountViewSet(MyBaseViewSet):
                 token = RefreshToken.for_user(account)
                 response = {
                     'access_token': str(token.access_token),
-                    'refreshToken': str(token)
+                    'refreshToken': str(token),
+                    'user_id': AccountService.get_user_id(account)
                 }
                 return Response(response, status=status.HTTP_200_OK)
         return Response({"Message": "Invalid username or password."}, status=status.HTTP_400_BAD_REQUEST)

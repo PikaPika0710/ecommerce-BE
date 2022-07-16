@@ -4,6 +4,7 @@ import jwt
 from dotenv import load_dotenv
 
 from api_accounts.models import Account
+from api_users.models import User
 
 load_dotenv()
 
@@ -30,3 +31,8 @@ class AccountService:
         payload = jwt.decode(jwt=token, options=jwt_options, key=os.getenv('SECRET_KEY'), algorithms=['HS256'])
         account = Account.objects.get(username=payload['user_id'])
         return account
+
+    @classmethod
+    def get_user_id(cls, account):
+        user = User.objects.get(account=account)
+        return user.id

@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('api_accounts', '0004_migrate_admin_accounts'),
+        ('api_accounts', '0003_migrate_role_data'),
         ('api_products', '0003_migrate_products_data'),
     ]
 
