@@ -5,7 +5,7 @@ from api_users.models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
-    account = AccountSerializer()
+    # account = AccountSerializer()
 
     class Meta:
         model = User

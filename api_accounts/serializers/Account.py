@@ -6,11 +6,11 @@ from api_accounts.serializers.Role import RoleSerializer
 
 
 class AccountSerializer(serializers.ModelSerializer):
-    role = RoleSerializer()
+    # role = RoleSerializer()
 
     class Meta:
         model = Account
-        fields = ['username', 'role']
+        fields = ['username', 'password', 'role']
 
     def save(self, **kwargs):
         validated_data = self.validated_data
