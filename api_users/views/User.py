@@ -29,10 +29,10 @@ class UserViewSet(MyBaseViewSet):
         http_authorization = str(request.META.get('HTTP_AUTHORIZATION'))
         token = AccountService.get_token(http_authorization)
         account = AccountService.get_account_by_token(token)
-        # user = UserService.update_user(self.get_object(), request.data)
+        instance = self.get_object()
         data = request.data
-        data['account'] = account
-        user = UserSerializer(data=data)
+        data['account'] = account.id
+        user = self.serializer_class(instance, data=data)
         if user.is_valid():
-            user.save()
-            return Response(self.serializer_class(user).data, status=status.HTTP_200_OK)
+            self.perform_update(user)
+            return Response(user.data, status=status.HTTP_200_OK)

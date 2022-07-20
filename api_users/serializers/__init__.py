@@ -1,1 +1,1 @@
-from .User import UserSerializer, UserUpdateSerializer
+from .User import UserSerializer
